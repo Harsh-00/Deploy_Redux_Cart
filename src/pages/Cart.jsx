@@ -41,7 +41,7 @@ const Cart = () => {
 								<span className="text-lg font-semibold text-gray-700">
 									Total Amount:{" "}
 									<span className="text-black font-bold text-xl">
-										${totAmount}
+										${totAmount.toFixed(2)}
 									</span>{" "}
 								</span>
 							</p>
